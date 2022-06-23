@@ -1,0 +1,9 @@
+#banner{
+    display: flex;
+    align-items: center;
+    background-color: #a1b5ca;
+}
+
+#header{
+    background-color: #09090a;
+}

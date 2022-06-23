@@ -1,0 +1,43 @@
+.img-fluid {
+    max-width: 500%;
+    height: auto;
+}
+
+p{
+    color: aliceblue;
+}
+
+@media screen and (min-width: 720px){
+.img-fluid{
+    margin-inline-start: 407px;
+    border-radius: 100%;
+    width:384px;
+    margin-top: 12px;
+}
+.saludo{
+    margin-top:80px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+}
+.nombre{
+    margin-top: -268px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 70px;
+    margin-left: -10px;
+    font-weight: bold;
+    
+}
+.sub{
+    margin-top:-25px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+}
+
+#nombre{
+    color:#EA5455;
+}
+
+#apellido{
+    color: #ecdada;
+}
+}

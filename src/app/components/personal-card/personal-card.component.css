@@ -1,0 +1,28 @@
+*{
+    background-color: #09090a;
+}
+
+@media screen and (min-width: 720px){
+.nombre{
+    font-size: 34px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.title-job{
+    color: #EA5455;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.about{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+}
