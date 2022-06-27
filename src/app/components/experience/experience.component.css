@@ -1,0 +1,14 @@
+h2{
+    font-family: 'Work Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 64px;
+    
+}
+
+@media screen and (min-width: 1200px){
+    h2{
+        margin-top: 15px;
+        margin-top: 10px;
+    }
+}
+

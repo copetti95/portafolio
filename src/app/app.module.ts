@@ -11,6 +11,9 @@ import { ButtonComponent } from './components/button/button.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { PersonalCardComponent } from './components/personal-card/personal-card.component';
 import { ProfilePictureComponent } from './components/profile-picture/profile-picture.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { ExpCompComponent } from './components/exp-comp/exp-comp.component';
+import { EducationComponent } from './components/education/education.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { ProfilePictureComponent } from './components/profile-picture/profile-pi
     ButtonComponent,
     BannerComponent,
     PersonalCardComponent,
-    ProfilePictureComponent
+    ProfilePictureComponent,
+    ExperienceComponent,
+    ExpCompComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,

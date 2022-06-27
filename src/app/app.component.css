@@ -1,0 +1,7 @@
+.root{
+    /* *Ponemos el mismo fondo para todo el sitio en negro */
+    background-color: #09090a;
+    
+    /* *Colocamos un padding botom para que se distinga donde terminan los componentes y no quede todo pegado abajo */
+    padding-bottom: 60PX;
+}

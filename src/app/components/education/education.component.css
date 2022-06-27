@@ -1,0 +1,37 @@
+/* !Por ahora configuramos todo para pantallas de computadora */
+
+@media screen and (min-width: 1200px){
+
+    .row{
+        padding: 10px;
+    }
+    /* *Le damos un display:inline así queda todo en la misma línea */
+    h1, h3{
+        display: inline;
+    }
+
+    /* *Acá van las propiedades del título: en letras rojas y gorditas */
+
+    h1{
+        font-weight:800;
+        color:#EA5455;
+        font-family: 'Work Sans', sans-serif;
+    }
+    /* *Las características de la caja: fondo gris y semitransparente con letras blancas y la works sans */
+    .box{
+    font-family: 'Work Sans', sans-serif;
+    font-weight:normal;
+    color: #FFFFFF;
+    background-color: rgba(128, 128, 128, 0.15);
+    border-radius: 15px;
+}
+
+.education{
+    font-family: 'Work Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: normal
+    
+}}
+
+
