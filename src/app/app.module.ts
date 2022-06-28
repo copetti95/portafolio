@@ -14,6 +14,8 @@ import { ProfilePictureComponent } from './components/profile-picture/profile-pi
 import { ExperienceComponent } from './components/experience/experience.component';
 import { ExpCompComponent } from './components/exp-comp/exp-comp.component';
 import { EducationComponent } from './components/education/education.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -28,11 +30,16 @@ import { EducationComponent } from './components/education/education.component';
     ProfilePictureComponent,
     ExperienceComponent,
     ExpCompComponent,
-    EducationComponent
+    EducationComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
+    // !Acá importamos el ng-circle
+     // Specify ng-circle-progress as an import
+     NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
