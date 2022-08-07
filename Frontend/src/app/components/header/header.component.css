@@ -1,0 +1,44 @@
+
+#header{
+    background-color: #09090a;
+}
+
+/* .rrss{
+    margin-right: 0em;
+    padding-right: 0em;
+ 
+} */
+
+.row{
+    background-color:#09090a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo{
+    width: 2rem;
+    margin: 0.25em;
+}
+
+.rrss{
+    align-content: center;
+    text-align: center;
+}
+
+.ap{
+    align-content: center;
+    text-align: center;
+}
+
+@media (min-width: 768px){
+    .order-md-4{
+        justify-content: center;
+    }
+
+    .ap{
+        padding-left: 2rem;
+    }
+
+}
