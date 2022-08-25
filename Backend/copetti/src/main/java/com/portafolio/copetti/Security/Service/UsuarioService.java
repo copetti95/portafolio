@@ -4,13 +4,12 @@
  */
 package com.portafolio.copetti.Security.Service;
 
-import Security.Entity.Usuario;
-import Security.Repository.iUsuarioRepository;
+import com.portafolio.copetti.Security.Entity.Usuario;
+import com.portafolio.copetti.Security.Repository.iUsuarioRepository;
 import java.util.Optional;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 
 @Service
 @Transactional
@@ -33,4 +32,5 @@ public class UsuarioService {
     public void save(Usuario usuario){
         iusuarioRepository.save(usuario);
     }
+    
 }

@@ -1,8 +1,11 @@
-
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package com.portafolio.copetti.Security.Service;
 
-import Security.Entity.Usuario;
-import Security.Entity.UsuarioPrincipal;
+import com.portafolio.copetti.Security.Entity.Usuario;
+import com.portafolio.copetti.Security.Entity.UsuarioPrincipal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -16,9 +19,8 @@ public class UserDetailsImpl implements UserDetailsService{
 
     @Override
     public UserDetails loadUserByUsername(String nombreUsuario) throws UsernameNotFoundException {
-        Usuario usuario = usuarioService.getByNombreUsuario(nombreUsuario).get();
-        return UsuarioPrincipal.build(usuario);
+       Usuario usuario = usuarioService.getByNombreUsuario(nombreUsuario).get();
+       return UsuarioPrincipal.build(usuario);
     }
-    
     
 }
