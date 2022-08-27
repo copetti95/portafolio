@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { PersonalCardComponent } from './components/personal-card/personal-card.component';
 import { ProfilePictureComponent } from './components/profile-picture/profile-picture.component';
-import { ExperienceComponent } from './components/experience/experience.component';
+import { ExperienceComponent } from './components/experience/experiencia.component';
 import { ExpCompComponent } from './components/exp-comp/exp-comp.component';
 import { EducationComponent } from './components/education/education.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
@@ -17,6 +17,8 @@ import {HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { interceptorProvider } from './service/interceptor-service';
+import { NewExperienciaComponent } from './components/experience/new-experiencia.component';
+import { EditExperienciaComponent } from './components/experience/edit-experiencia.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { interceptorProvider } from './service/interceptor-service';
     ProyectosComponent,
     FooterComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    NewExperienciaComponent,
+    EditExperienciaComponent
   ],
   imports: [
     BrowserModule,
