@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.portfolio</groupId>
-    <artifactId>mgb</artifactId>
+    <artifactId>copetti</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mgb.Produccion</name>
-    <description>Portfolio de MGB</description>
+    <name>copetti.Produccion</name>
+    <description>Portfolio de Octavio Copetti</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -28,6 +28,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
         <dependency>
@@ -66,7 +70,6 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.9</version>
         </dependency>
-
     </dependencies>
 
     <build>
